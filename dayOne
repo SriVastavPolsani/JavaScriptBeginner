@@ -1,0 +1,56 @@
+var x = 5; //in-line comment;
+
+/*
+This
+is 
+a multi line
+comment
+*/
+
+x = 9;
+
+var myName = "Sri"; // var can be used anywhere in the program.
+
+myName = "Sri Vastav";
+
+myName = 8; //Value can be updated this way anywhere in the program
+
+let myNames = "Wazza"; //variables declared using let are only valid in the scope that they are declared in.
+
+const pi = 3.14; // const value cannot be changed in the prpgram.
+
+var a; //Declaring a variable
+var b = 9; //Declaring and assigning a variable
+console.log(a);
+console.log(b);
+a = 6;
+console.log(a);
+b = a;
+console.log(b);
+
+var camelCaseLetters = "I am a "; //variables follow camel case letter convention in JS.
+
+camelCaseLetters += "string.";
+
+console.log(camelCaseLetters);
+
+var x  = 10 + 10;
+
+console.log(x);
+
+var myDecimal = 5.9;
+
+var remainder;
+
+remainder = 10 % 3;
+
+console.log(remainder);
+
+var v = 12;
+v /= 12;
+
+console.log(v);
+
+var myStr = "This is a \"double quoted\" string inside a \"double quotes\""; // \ is used as an escape character.
+
+console.log(myStr);
