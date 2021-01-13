@@ -1,0 +1,21 @@
+var myStr = "This is the start " + "This is the end";
+console.log(myStr);
+
+var munBur = "Pogba with the goal ";
+munBur +=  "Rashy with the assist."
+console.log(munBur);
+
+var leaguePosition = "Top of the table";
+var statement = "Man Utd are "+ leaguePosition + " And its fuckin awesome!!";
+console.log(statement);
+
+var mufcNews = "Martial has been ";
+var adjective = "a lil bit trash off late.";
+mufcNews += adjective;
+console.log(mufcNews);
+
+//length of a string
+var name = "vastav";
+console.log(name.length);
+var firstLetterOfFirstName  = name[0];
+console.log(firstLetterOfFirstName);
