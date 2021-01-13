@@ -19,3 +19,45 @@ var name = "vastav";
 console.log(name.length);
 var firstLetterOfFirstName  = name[0];
 console.log(firstLetterOfFirstName);
+
+//immutable string
+var name = "PAstav";
+name[0] = "V"; // cannot change individual char's like this.
+
+console.log(name);
+
+//Arrays
+
+var testArr = ["vastav", 1];
+var otherTestArr = ["K", 42];
+
+console.log(testArr[0]);
+
+//Nested Arr
+
+var jArr = [["Pog",6],["Bruno", 18]];
+
+console.log(jArr[0]);
+
+console.log(jArr[1][1]);
+
+//Arrays not immutable
+
+var tryThis = ["Pog", "Bruno", "VanDeBeek"];
+tryThis[2] = "MAtic";
+console.log(tryThis);
+
+//Manipulate Arrays with Push;
+
+var fwd = [["Rashy", 10], ["Tony", 9], ["Greenwood", 11]];
+fwd.push(["Edinson", 7]);
+console.log(fwd);
+
+//can do pop also, like Stack DS
+
+
+var fwd = [["Rashy", 10], ["Tony", 9], ["Greenwood", 11]];
+var topScorer = fwd.shift();
+
+console.log(fwd);
+console.log(topScorer);
